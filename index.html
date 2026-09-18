@@ -17,7 +17,10 @@
   .intro{color:var(--gris);margin:0}
   .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-top:1.5rem}
   .card{border:1px solid var(--borde);border-radius:12px;padding:1.2rem;background:var(--suave);display:flex;flex-direction:column;gap:.4rem}
+  .card-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin-bottom:.2rem}
   .card .num,.pod .num{margin:0;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--verde2);font-weight:700}
+  .badge-corregido{display:inline-flex;align-items:center;font-size:.7rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#005a25;background:#daf2e1;border:1px solid #9edab0;padding:.2rem .55rem;border-radius:999px}
+  .badge-corregido::before{content:"\2713\0020";font-weight:900}
   .card h3{margin:0 0 .8rem;font-size:1.05rem;line-height:1.3;color:var(--verde);flex:1}
   .btn{align-self:flex-start;display:inline-block;text-decoration:none;font-size:.85rem;font-weight:600;padding:.45rem .9rem;border-radius:999px;background:var(--verde);color:#fff;border:1px solid var(--verde)}
   .btn:hover{background:var(--verde2)}
@@ -44,37 +47,58 @@
     <p class="intro">Curso de Formación General y Abierta sobre las competencias básicas del personal de la Junta de Andalucía. Selecciona una unidad para abrirla en el navegador.</p>
     <div class="grid">
     <article class="card">
-      <p class="num">Unidad 1</p>
+      <div class="card-head">
+        <p class="num">Unidad 1</p>
+        <span class="badge-corregido">Corregido</span>
+      </div>
       <h3>Competencias profesionales y su gestión en la Ley 5/2023, de 7 de junio, y el Decreto 91/2026</h3>
       <a class="btn" href="unidad-1/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 2</p>
+      <div class="card-head">
+        <p class="num">Unidad 2</p>
+        <span class="badge-corregido">Corregido</span>
+      </div>
       <h3>Competencia Básica 1ª: Compromiso con el servicio público y la organización</h3>
       <a class="btn" href="unidad-2/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 3</p>
+      <div class="card-head">
+        <p class="num">Unidad 3</p>
+        <span class="badge-corregido">Corregido</span>
+      </div>
       <h3>Competencia Básica 2ª: Orientación a la ciudadanía</h3>
       <a class="btn" href="unidad-3/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 4</p>
+      <div class="card-head">
+        <p class="num">Unidad 4</p>
+        <span class="badge-corregido">Corregido</span>
+      </div>
       <h3>Competencia Básica 3ª: Mejora continua</h3>
       <a class="btn" href="unidad-4/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 5</p>
+      <div class="card-head">
+        <p class="num">Unidad 5</p>
+        
+      </div>
       <h3>Competencia Básica 4ª: El aprendizaje permanente</h3>
       <a class="btn" href="unidad-5/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 6</p>
+      <div class="card-head">
+        <p class="num">Unidad 6</p>
+        
+      </div>
       <h3>Competencia Básica 5ª: Cooperación y colaboración</h3>
       <a class="btn" href="unidad-6/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
-      <p class="num">Unidad 7</p>
+      <div class="card-head">
+        <p class="num">Unidad 7</p>
+        
+      </div>
       <h3>Competencia Básica 6ª: Flexibilidad y adaptabilidad al cambio</h3>
       <a class="btn" href="unidad-7/scormcontent/index.html">Abrir unidad</a>
     </article>
